@@ -95,23 +95,25 @@ Download pretrained models from model folder
   2. Create a data folder in the mmdetection folder and put your VOCdevkit folder into this data folder.
   3. Modify classes
   ```
-    a.) **mmdetection/mmdet/datasets/voc.py**
+    a.) mmdetection/mmdet/datasets/voc.py
         修改 CLASSES = ('1','2','3','4','5','6','7','8','9','10')
-    b.)*mmdetection/mmdet/core/evaluation/class_names.py*
+    b.) mmdetection/mmdet/core/evaluation/class_names.py
         修改 CLASSES = ('1','2','3','4','5','6','7','8','9','10')
   ```
     
   4. Modify the configs
   ```
-    a.)*mmdetection/configs/pascal_voc/ssd300_voc0712.py*
+    a.) mmdetection/configs/pascal_voc/ssd300_voc0712.py
         num_classes設為10
         img_scale設為512*512
         step設為[7,9]
         total_epochs設為10
   ```
   5. Start training:
+  
   ```python3 ./tools/train.py ./configs/pascal_voc/ssd300_voc0712.py```
   
 
 ### Inference
+
 ```python3 ./demo/image_demo.py ./configs/pascal_voc/ssd300_voc0712.py ./work_dirs/epoch10.pth --root data/VOCdevkit/VOC2007/test/```
