@@ -105,10 +105,12 @@ Download pretrained models from model folder
   4. Modify the configs
   ```
     a.) mmdetection/configs/pascal_voc/ssd300_voc0712.py
-        num_classes設為10
-        img_scale設為512*512
-        step設為[7,9]
-        total_epochs設為10
+        - num_classes設為10
+        - step設為[7,9]
+        - total_epochs設為10
+    b.) mmdetection/configs/_base_/datasets/VOC0712.py
+        - image scale設為512*512
+        - 拿掉VOC2012的部分
   ```
   5. Start training:
   
