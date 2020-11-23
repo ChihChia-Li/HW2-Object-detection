@@ -18,6 +18,7 @@ You can reproduce this work by downloading  the pretrained model or doing the ``
 
 ### Dataset Preparation
 1. Prepare xml files: A corresponding xml file should be generated for each training image.
+
 The xml file format:
 ```
 <annotation>
