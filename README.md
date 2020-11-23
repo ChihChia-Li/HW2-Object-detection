@@ -77,7 +77,8 @@ VOCdevkit/
 ### Training
 Use pretrained ssd network to train our object detector
 * Download Pretrained models:
-Download pretrained models from model folder
+
+<https://drive.google.com/file/d/1eL_tt4q4YDwHUKNfMhOTbD_LIMQA28Uj/view?usp=sharing>
 * Steps:
   1. Setup environment and mmdetection
   ```
