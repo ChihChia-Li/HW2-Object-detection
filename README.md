@@ -108,8 +108,6 @@ Download pretrained models from model folder
         img_scale設為512*512
         step設為[7,9]
         total_epochs設為10
-    b.)
-       
   ```
   5. Start training:
   ```python3 ./tools/train.py ./configs/pascal_voc/ssd300_voc0712.py```
