@@ -12,9 +12,9 @@ use Street View House Numbers(SVHN) dataset which containing 33,402 trianing ima
 
 ### Reproducing Submission
 You can reproduce this work by downloading  the pretrained model or doing the ```Steps``` in Train.
-1. <Dataset Preparation>
-2. <Train>
-3. <Inference>
+1. Dataset Preparation
+2. Train
+3. Inference
 
 ### Dataset Preparation
 1. Prepare xml files: A corresponding xml file should be generated for each training image.
