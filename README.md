@@ -95,7 +95,7 @@ Download pretrained models from model folder
   2. Create a data folder in the mmdetection folder and put your VOCdevkit folder into this data folder.
   3. Modify classes
   ```
-    a.)*mmdetection/mmdet/datasets/voc.py*
+    a.) **mmdetection/mmdet/datasets/voc.py**
         修改 CLASSES = ('1','2','3','4','5','6','7','8','9','10')
     b.)*mmdetection/mmdet/core/evaluation/class_names.py*
         修改 CLASSES = ('1','2','3','4','5','6','7','8','9','10')
