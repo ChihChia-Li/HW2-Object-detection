@@ -118,3 +118,6 @@ Download pretrained models from model folder
 ### Inference
 
 ```python3 ./demo/image_demo.py ./configs/pascal_voc/ssd300_voc0712.py ./work_dirs/epoch10.pth --root data/VOCdevkit/VOC2007/test/```
+
+### Reference
+<https://github.com/open-mmlab/mmdetection>
