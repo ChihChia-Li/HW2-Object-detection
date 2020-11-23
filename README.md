@@ -19,6 +19,8 @@ You can reproduce this work by downloading  the pretrained model or doing the ``
 ### Dataset Preparation
 1. Prepare xml files: A corresponding xml file should be generated for each training image.
 
+You can use  ```h5_to_xml.py``` to produce xml files
+
 The xml file format:
 ```
 <annotation>
@@ -128,3 +130,4 @@ python3 ./demo/image_demo.py
 
 ### Reference
 <https://github.com/open-mmlab/mmdetection>
+<https://github.com/AlessandroSaviolo/RetinaNET-Object-Detector>
